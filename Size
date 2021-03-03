@@ -1,0 +1,9 @@
+package com.company;
+
+public class Size {
+    int size_nor;
+
+    public Size(int size_nor){
+        this.size_nor = size_nor;
+    }
+}
