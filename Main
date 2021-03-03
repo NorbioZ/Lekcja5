@@ -1,0 +1,8 @@
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        Vehicle veh = new Vehicle("Škoda", new Engine("1.6 TDI"), new Size(4), new Color("Zielony"));
+        System.out.println(veh);
+    }//Norbert Kulik
+}
