@@ -1,0 +1,9 @@
+package com.company;
+
+public class Color {
+    String color_nor;
+
+    public Color(String color_nor){
+        this.color_nor = color_nor;
+    }
+}
