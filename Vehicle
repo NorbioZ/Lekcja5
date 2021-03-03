@@ -1,0 +1,23 @@
+package com.company;
+
+public class Vehicle {
+    String vehicle_nor;
+    Engine engine_nor;
+    Size size_nor;
+    Color color_nor;
+
+    public Vehicle(String vehicle, Engine engine, Size size, Color color){
+        this.vehicle_nor = vehicle;
+        this.engine_nor = engine;
+        this.size_nor = size;
+        this.color_nor = color;
+    }
+
+
+
+    @Override
+    public String toString(){
+        return "\n Marka "+ vehicle_nor + "\n Silnik " + engine_nor.engine_nor + "\n Długość " + size_nor.size_nor + "\n Kolor "+ color_nor.color_nor;
+    }
+
+}
