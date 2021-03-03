@@ -1,0 +1,10 @@
+package com.company;
+
+public class Engine{
+    String engine_nor;
+
+    public Engine(String engine_nor){
+        this.engine_nor = engine_nor;
+    }
+
+}
